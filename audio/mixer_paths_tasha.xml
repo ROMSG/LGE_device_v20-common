@@ -2081,7 +2081,7 @@
 
     <path name="speaker-mic">
         <path name="dmic3" />
-        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
     <path name="speaker-mic-liquid">
@@ -2168,9 +2168,9 @@
         <ctl name="SLIM TX7 MUX" value="DEC7" />
         <ctl name="ADC MUX7" value="DMIC" />
         <ctl name="DMIC MUX7" value="DMIC4" />
-        <ctl name="DEC5 Volume" value="84" />
-        <ctl name="DEC6 Volume" value="84" />
-        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC5 Volume" value="111" />
+        <ctl name="DEC6 Volume" value="111" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
     <path name="anc-handset">
@@ -2272,7 +2272,7 @@
 
     <path name="voice-speaker-mic">
         <path name="speaker-mic" />
-        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
     <path name="voice-speaker-vbat">
@@ -2805,15 +2805,15 @@
 
     <path name="unprocessed-dual-mic">
         <path name="dmic-endfire" />
-		<ctl name="DEC7 Volume" value="88" />
-		<ctl name="DEC8 Volume" value="91" />
+		<ctl name="DEC7 Volume" value="98" />
+		<ctl name="DEC8 Volume" value="101" />
     </path>
 
     <path name="unprocessed-three-mic">
         <path name="three-mic" />
-		<ctl name="DEC5 Volume" value="91" />
-		<ctl name="DEC6 Volume" value="88" />
-		<ctl name="DEC7 Volume" value="91" />
+		<ctl name="DEC5 Volume" value="101" />
+		<ctl name="DEC6 Volume" value="98" />
+		<ctl name="DEC7 Volume" value="101" />
     </path>
 
     <!-- Added for ADSP testfwk -->

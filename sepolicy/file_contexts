@@ -3,3 +3,6 @@
 
 # Quad DAC
 /(system_ext|system/system_ext)/bin/quad_dac    u:object_r:quaddac_exec:s0
+
+# Fingerprint
+/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.elsa		u:object_r:hal_fingerprint_elsa_exec:s0 

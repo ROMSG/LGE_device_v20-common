@@ -373,16 +373,12 @@ etc/camera/imx219_chromatix.xml:vendor/etc/camera/imx219_chromatix.xml
 etc/camera/imx298_chromatix_LG.xml:vendor/etc/camera/imx298_chromatix_LG.xml
 etc/camera/s5k2p7_chromatix.xml:vendor/etc/camera/s5k2p7_chromatix.xml
 
-# Fingerprint
-vendor/bin/fpc_early_loader
--vendor/lib/hw/fingerprint.msm8996.so
-vendor/lib/lib_fpc_tac_shared.so
-vendor/lib/libfpfactory.so
-vendor/lib/libfpfactory_jni.so
--vendor/lib64/hw/fingerprint.msm8996.so
-vendor/lib64/lib_fpc_tac_shared.so
-vendor/lib64/libfpfactory.so
-vendor/lib64/libfpfactory_jni.so
+# Fingerprint - V30e
+vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service
+vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/lib64/hw/fingerprint.msm8996.so
+lib/vendor.lge.hardware.biometrics.fingerprint@2.1.so:vendor/lib/vendor.lge.hardware.biometrics.fingerprint@2.1.so
+lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so:vendor/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so
 
 # OIS firmware
 media/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin:vendor/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin

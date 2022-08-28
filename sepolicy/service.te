@@ -1,3 +1,0 @@
-type quaddac_service, service_manager_type;
-
-type hal_fingerprint_elsa_service, service_manager_type; 

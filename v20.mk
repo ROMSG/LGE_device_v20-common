@@ -63,10 +63,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
 
-# Quad DAC
-PRODUCT_PACKAGES += \
-    quad_dac \
-    QuadDacTile
 
 # Sensors
 PRODUCT_COPY_FILES += \

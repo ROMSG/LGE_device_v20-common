@@ -47,6 +47,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libshim_bwfocus
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.elsa
+
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service.lge
